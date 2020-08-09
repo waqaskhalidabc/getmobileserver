@@ -1,1 +1,1 @@
-<?php include("./theme.html") ?>
+<?php include("./app.js") ?>

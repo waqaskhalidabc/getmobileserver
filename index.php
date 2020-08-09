@@ -1,1 +1,1 @@
-<?php include("./bin/www") ?>
+<?php include("./theme.html") ?>

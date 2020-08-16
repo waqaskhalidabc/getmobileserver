@@ -39,13 +39,13 @@ app.use(function(err, req, res, next) {
 });
 
 
-mongoose.connect("mongodb://localhost/getMobile", { useNewUrlParser:true,useUnifiedTopology: true})
+/*mongoose.connect("mongodb://localhost/getMobile", { useNewUrlParser:true,useUnifiedTopology: true})
 .then(() =>console.log("Connected to Mongo ...."))
-.catch((error) =>console.log(error.message));
+.catch((error) =>console.log(error.message));*/
 
-/*mongoose.connect("mongodb+srv://waqaskhalid:telenor0342@cluster0.lhmqt.mongodb.net/getMobile?retryWrites=true&w=majority", 
+mongoose.connect("mongodb+srv://waqaskhalid:telenor0342@cluster0.lhmqt.mongodb.net/getMobile?", 
 { useNewUrlParser:true,useUnifiedTopology: true})
-.then(() =>console.log("Connected to Mongo ...."))
-.catch((error) =>console.log(error));*/
+.then(() =>console.log("Connected to Mongo.."))
+.catch((error) =>console.log(error));
 
 module.exports = app;
